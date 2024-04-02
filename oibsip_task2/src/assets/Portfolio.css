@@ -1,0 +1,84 @@
+.portfolio {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact, .samples, .resume {
+    margin-top: 40px;
+  }
+  
+  .contact h2, .samples h2, .resume h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .contact ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sample {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sample img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sample:hover {
+    transform: translateY(-10px);
+  }
+  
+  .sample:hover img {
+    transform: scale(1.05);
+  }
+  
+  .resume {
+    text-align: center;
+  }
+  
+  .resume a {
+    font-size: 24px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .resume a:hover {
+    color: #0056b3;
+  }
+  
